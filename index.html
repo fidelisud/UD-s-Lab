@@ -1,0 +1,148 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD'S LAB - Responsive Web Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">UD'S LAB</div>
+            <ul class="nav-links" aria-label="Primary navigation">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to UD'S LAB</h1>
+            <p>Responsive Web Developer | HTML, CSS, JavaScript & QA Specialist</p>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate responsive web developer with a focus on creating seamless user experiences using HTML, CSS,
+            and JavaScript. I also specialize in Quality Assurance to ensure every project is bug-free and performs
+            optimally across all devices.</p>
+        <p>With a keen eye for design and functionality, I build websites that are not only beautiful but also highly
+            responsive and user-friendly.</p>
+    </section>
+
+    <section id="skills" style="background-color: #fff;">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Semantic and accessible markup</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Responsive designs with Flexbox & Grid</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive and dynamic features</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-bug"></i>
+                <h3>QA</h3>
+                <p>Thorough testing and debugging</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+    
+            <div class="project-card">
+                <img class="project-img" src="img1.jpeg" alt="Screenshot of Project One">
+                <div class="project-info">
+                    <p>A responsive web dev site built with HTML, CSS and JS</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img class="project-img" src="img2.png" alt="Screenshot of Project One">
+                <div class="project-info">
+                    <p>Interactive law firm site with QA testing.</p>
+                </div>
+            </div>
+
+             <div class="project-card">
+                <img class="project-img" src="img9.png" alt="Screenshot of Project One">
+                <div class="project-info">
+                    <p>Responsive Groceries Website.</p>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img class="project-img" src="img3.png" alt="Screenshot of Project Two">
+                <div class="project-info">
+                    <p>A responsive Perfume site built with HTML, CSS and JS with QA</p>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img class="project-img" src="img4.png" alt="Screenshot of Project Three">
+                <div class="project-info">
+                    <p>A responsive Art Store site built with HTML, CSS and JS.</p>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img class="project-img" src="img.jpeg" alt="Screenshot of Project Four">
+                <div class="project-info">
+                    <p>Clean and accessible Blog Site with QA.</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" aria-label="Contact form">
+            <input type="text" name="name" placeholder="Your Name" required aria-required="true" />
+            <input type="email" name="email" placeholder="Your Email" required aria-required="true" />
+            <textarea name="message" rows="5" placeholder="Your Message" required aria-required="true"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <div class="contact-floating" aria-label="Floating contact buttons">
+        <a href="https://wa.me/2349012557203" target="_blank" rel="noopener noreferrer" class="contact-icon whatsapp" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 UD'S LAB. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
